@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Parcial2</title>
+</head>
+<header class="header">
+    <div class="container">
+        <a class="logo">AMAZING!</a>
+        <nav class="menu">
+            <ul>
+                <li><a href="#" onclick="renderArrayProductos()">PRODUCTOS</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input class="buscar" type="text" id="input_buscar" placeholder="Producto a buscar" name="form-buscar">
+
+        </form>
+    </div>
+</header>
+<body>
+<h1 class="texto">Ingresar producto nuevo</h1>
+    <div class="form-producto">
+        <form action="#" id="product-form">
+        <label for="#">Nombre producto:</label>
+        <input class="datos" type="text" required placeholder="Producto" name="form-producto" id="producto">
+        <label for="precio">Precio</label>
+        <input class="datos" type="number" min="0.00" max="10000.00" step="0.01" required placeholder="$0.00" name="form-precio" id="input_precio" />
+        <label for="marca">Marca</label>
+        <input class="datos" type="text" name="form-marca" required placeholder="Marca" id="input_marca">
+        <label for="cantidad">Cantidad</label>
+        <input class="datos" type="number" name="form-cantidad" id="input_cantidad" min="1" max="50" step="1" required placeholder="0"/>
+        <label for="descripcion">Descripcion</label>
+        <textarea class="datos" required placeholder="Agregar descripcion del producto" id="input_description" name="form-descripcion"></textarea>
+        <button class="btn-guardar" type="submit">Guardar</button>
+    </form>
+    </div>
+<section class="contenedor-productos">
+    <!---
+    <div class="item">
+        <img src="img/imagen.png">
+        <h2>Pan con queso</h2>
+        <a>Precio: $30</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, libero maiores. Minus, reprehenderit provident. Magni dolorem doloremque temporibus soluta laborum nulla corrupti ea, iusto ex rem quod vel adipisci voluptates!</p>
+    </div>
+    --->
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>

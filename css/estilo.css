@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+      background: #074358;
+      color: #D7D6A5;
+      padding: 2rem 0;
+      font-family: 'Architects Daughter', cursive;
+  }
+
+  .header a{
+    color: #D7D6A5;
+    text-decoration: none; 
+    }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.5rem;
+    margin-left: 3%;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.1s linear;
+    border-radius: 5px;
+}
+
+.menu ul li:hover{
+    background: #A55C55;
+}
+
+  body {
+    background-color:#A55C55;
+    }
+
+  .form-producto {
+    width: 700px;
+    background: #D7D6A5;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #074358;
+    font-size: 22px;
+  }
+
+  .texto {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: #D7D6A5;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .datos {
+    width: 95%;
+    background: #DBA67B;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #074358;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    color: #074358;
+  }
+
+
+.buscar{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    background: #458985;
+    width: 600px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #D7D6A5;
+    padding: 0 30px;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+.buscar::placeholder { 
+    color: #D7D6A5; 
+}
+
+.btn-buscar{
+    position: relative;
+    border-radius: 0 10px 10px 0;
+    left: -5px;
+    width: 135px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #366d69;
+    color: #D7D6A5;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+.btn-buscar:hover{
+    background: #A55C55;
+}
+
+.btn-guardar{
+    position: relative;
+    border-radius: 5px;
+    width: 135px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    left: 40%;
+    background: #A55C55;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1rem;
+    color: #D7D6A5;
+}
+.btn-eliminar{
+    margin-top: 10px;
+    position: center;
+    border-radius: 5px;
+    width: 135px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    left: 40%;
+    background: #A55C55;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1rem;
+    color: #D7D6A5;
+}
+
+.btn-guardar:hover{
+    background: #814944;
+}
+.btn-eliminar:hover{
+    background: #814944;
+}
+
+.contenedor-productos{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.contenedor-productos .item{
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px;
+    background: rgb(211, 182, 128);
+    font-family: 'Architects Daughter', cursive;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    padding: 2%;
+}
+
+/*Por si colocamos imagen*/
+
+.contenedor-productos .item img{
+    width: 100%;
+}
+
